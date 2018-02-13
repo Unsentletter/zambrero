@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 import Form from './Components/Form';
-import './App.css';
+import Schema from './Schema.json';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Form />
+        <Form schema={Schema}/>
       </div>
     );
   }

@@ -1,0 +1,13 @@
+{
+  "form": {
+    "name": true,
+    "dateOfBirth": true,
+    "gender": true,
+    "contactDetails": {
+      "home": true,
+      "work": true,
+      "mobile": true
+    },
+    "guardianRequired": true
+  }
+}
